@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/backgroundblue">
+
+
+    <ImageView
+        android:layout_width="275dp"
+        android:layout_height="40dp"
+        android:id="@+id/deletegroupIV"
+        android:src="@drawable/deletegroup"
+        android:layout_below="@+id/loadgroupIV"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:layout_width="275dp"
+        android:layout_height="40dp"
+        android:id="@+id/loadgroupIV"
+        android:src="@drawable/loadgroup"
+        android:layout_below="@+id/creategroupIV"
+        android:layout_alignLeft="@+id/creategroupIV" />
+
+
+    <ImageView
+        android:layout_width="275dp"
+        android:layout_height="40dp"
+        android:id="@+id/creategroupIV"
+        android:src="@drawable/creategroup"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/deletegroupIV" />
+
+
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/groupListView"
+        android:paddingTop="2dip"
+        android:paddingBottom="3dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/deletegroupIV" />
+
+</RelativeLayout>

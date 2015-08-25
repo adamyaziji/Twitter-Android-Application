@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TwitterApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hintaddusername">Add username to group</string>
+    <string name="hintgivegroupname">Give group name</string>
+    <string name="textgroupusers">Users in Group</string>
+
+    <color name="backgroundblue">#81DAF5</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

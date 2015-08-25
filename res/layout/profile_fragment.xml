@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@color/backgroundblue">
+
+    <TextView
+        android:id="@+id/prof_name"
+        android:layout_width="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_height="70dp"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/prof_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/prof_name"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <ImageView
+        android:id="@+id/timeline"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:src="@drawable/hometimeline_button"
+        android:layout_alignTop="@+id/tweet"
+        android:layout_alignLeft="@+id/signout" />
+
+    <ImageView
+        android:id="@+id/tweet"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:src="@drawable/group_button"
+        android:layout_marginBottom="36dp"
+        android:layout_above="@+id/signout"
+        android:layout_alignRight="@+id/signout" />
+
+    <ImageView
+        android:id="@+id/signout"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/signout_button"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
